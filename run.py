@@ -1,7 +1,7 @@
 #!/usr/bin/env python3.7
 
 description = """
-Sonny, Bot for Legacy
+Sonny, Bot for David
 """
 
 # import dependencies
