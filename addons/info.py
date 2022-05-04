@@ -13,17 +13,17 @@ class Information:
     @commands.command(pass_context=True)
     async def site(self, ctx):
         """Display Site URL."""
-        await self.bot.say("https://legacy-rs.org")
+        await self.bot.say("https://unt.edu/")
 
     @commands.command(pass_context=True)
     async def ts(self, ctx):
-        """Display TS Address."""
-        await self.bot.say("ts.legacy-rs.org")
+        """Display Canvas Address."""
+        await self.bot.say("https://unt.instructure.com/")
 
     @commands.command(pass_context=True)
     async def apply(self, ctx):
-        """Display Application Form."""
-        await self.bot.say("https://legacy-rs.org/forum/5-member-applications-open/?do=add")
+        """Display Admissions."""
+        await self.bot.say("https://admissions.unt.edu/")
 
 # Load the extension
 def setup(bot):
